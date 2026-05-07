@@ -1,0 +1,165 @@
+
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+nav {
+    background-color: #0a2540;
+    padding: 15px;
+    color: white;
+}
+
+nav h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00b4d8;
+}
+
+
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    color: #0a2540;
+    margin-bottom: 10px;
+}
+
+
+section {
+    header {
+background: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 750px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+section h2 {
+    color: #1d3557;
+    margin-bottom: 10px;
+}
+
+
+section div {
+    background-color: #e0e0e0;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: #555;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 10px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+legend {
+    font-weight: bold;
+    color: #0a2540;
+}
+
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #0a2540;
+    outline: none;
+}
+
+
+button {
+    background-color: #0a2540;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d3557;
+}
+
+details {
+    background: #f1f3f5;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    color: #0a2540;
+}
+
+details p {
+    margin-top: 5px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        margin: 10px;
+    }
+}
